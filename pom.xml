@@ -23,7 +23,7 @@
         <jacoco.coverage.aggregated.reportDir>${project.basedir}/../target/${project.artifactId}/</jacoco.coverage.aggregated.reportDir>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
 <!--        <sonar.coverage.jacoco.xmlReportPaths>${jacoco.coverage.aggregated.reportDir}/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>-->
-        <sonar.coverage.jacoco.xmlReportPaths>${user.dir}/target/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+        <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../target/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
     <modules>
